@@ -14,11 +14,11 @@ php -r "unlink('composer-setup.php');"
 ```bash
 mv composer.phar /usr/local/bin/composer
 ````
-- Installing Slim in <em>address-api<em> folder, run the following commands:
+- Installing Slim in *address-api* folder, run the following commands:
 ```bash
 cd WHERE_YOU_HAVE_DOWNLOADED_THE_PROJECT/address-api
 composer require slim/slim:"4.*"
 composer require slim/psr7
 ```
-- After doing this a <em>**vendor**</em> will be created in <em>address-api</em> folder.
+- After doing this a *__vendor__* will be created in *address-api* folder.
 - Now you can run a local server in your computer to run the api and the project.
