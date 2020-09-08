@@ -10,7 +10,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '8a6138e2a05a8c28539c9
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
---If you want to install globally run this:
+-If you want to install globally run this:
 ```bash
 mv composer.phar /usr/local/bin/composer
 ````
