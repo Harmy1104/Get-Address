@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ae-second</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Error message when input is empty -->
+    <p id="msg"></p>
+    <!-- Input for address -->
+    <input id="address" name="address" type="text" value="" autocomplete="off">
+    <!-- Buttons -->
+    <div class="btn-container">
+        <button onclick="fetchAddress()">Send</button>
+        <button onclick="removeText()">Clear</button>
+    </div>
+    <!-- Display area to show the JSON data -->
+    <pre id="display"></pre>
+    
+    <script src="index.js"></script>
+</body>
+</html>

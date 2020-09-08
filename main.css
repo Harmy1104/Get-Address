@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  border-radius: 5px;
+  color: #e6e6e6;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+html, body {
+  background: #005670;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html input, body input {
+  background-color: #191919;
+  width: 50vw;
+  height: 5vh;
+  padding: 0 1vw;
+  font-size: 2vh;
+  border: none;
+  outline: none;
+}
+
+html input:hover, html input:focus, body input:hover, body input:focus {
+  background-color: #232323;
+}
+
+html #msg, body #msg {
+  background-color: #ff5050;
+  margin: 15vh 0 2vh 0;
+  padding: 1vh;
+  font-weight: bold;
+  font-size: 1vw;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+html .btn-container, body .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+html .btn-container button, body .btn-container button {
+  border: none;
+  height: 5vh;
+  padding: 0 2vw;
+  font-size: 3vh;
+  font-weight: lighter;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+html .btn-container button:nth-child(1), body .btn-container button:nth-child(1) {
+  margin: 2vh 2vw 0 0;
+}
+
+html .btn-container button:nth-child(1):hover, body .btn-container button:nth-child(1):hover {
+  background-color: #00a573;
+}
+
+html .btn-container button:nth-child(2), body .btn-container button:nth-child(2) {
+  margin-top: 2vh;
+}
+
+html .btn-container button:nth-child(2):hover, body .btn-container button:nth-child(2):hover {
+  background-color: #ff2929;
+}
+
+html #display, body #display {
+  background: #e6e6e6;
+  color: black;
+  margin-top: 2vh;
+  word-wrap: break-word;
+  width: 50vw;
+  line-height: 3vh;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    transition: all 0.2s ease-in-out;
+}
+html, body{
+    background: rgb(0, 86, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+        background-color: rgb(25, 25, 25);
+        width: 50vw;
+        height: 5vh;
+        padding: 0 1vw;
+        font-size: 2vh;
+        border: none;
+        outline: none;
+        &:hover, &:focus{
+            background-color: rgb(35, 35, 35);
+        }
+    }
+    #msg{
+        background-color: rgb(255, 80, 80);
+        margin: 15vh 0 2vh 0;
+        padding: 1vh;
+        font-weight: bold;
+        font-size: 1vw;
+        transform: scale(0);
+        // transition: transform 0.2s ease;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        button{
+            border: none;
+            height: 5vh;
+            padding: 0 2vw;
+            font-size: 3vh;
+            font-weight: lighter;
+            outline: none;
+            background-color: rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+            &:nth-child(1){
+                margin: 2vh 2vw 0 0;
+                &:hover{
+                    background-color: rgb(0, 165, 115);
+                }
+            }
+            &:nth-child(2){
+                margin-top: 2vh;
+                &:hover{
+                    background-color: rgb(255, 41, 41);
+                }
+            }
+        }
+    }
+    #display{
+        background: rgb(230, 230, 230);
+        color: black;
+        margin-top: 2vh;
+        word-wrap: break-word;
+        width: 50vw;
+        line-height: 3vh;
+    }
+}
+
+
+
