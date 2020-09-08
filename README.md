@@ -1,5 +1,5 @@
 # Get-Address
-Creating an API using Slim framework for PHP.
+- Creating an API using Slim framework for PHP.
 
 # Additional Steps
 - Download the project to your computer.
