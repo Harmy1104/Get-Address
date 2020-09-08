@@ -22,3 +22,7 @@ composer require slim/psr7
 ```
 - After doing this a *__vendor__* will be created in *address-api* folder.
 - Now you can run a local server in your computer to run the api and the project.
+
+## Regarding API
+- In the file *addreess-api/public/index.php* there is an *__API_KEY__* variable which will need to be replaced by your own api key.
+- You can find more information [here](https://developer.here.com/documentation/authentication/dev_guide/index.html)
